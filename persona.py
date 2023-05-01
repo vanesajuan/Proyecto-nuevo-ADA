@@ -7,7 +7,7 @@ def convertir_fecha(string_fecha):
     anio = string_fecha[0:4]
     mes = string_fecha[5:7]
     dia = string_fecha[8:10]
-    return datetime.date(int(anio), int(mes), int(dia))
+    return datetime.date(int(anio), int(mes), int(dia   
 
 class Persona(object):
     def __init__(self, dni, nombre, str_fecha_nacimiento):
